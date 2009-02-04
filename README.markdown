@@ -1,9 +1,8 @@
 Ruby Refactorings for TextMate
 ------------------------------
 
-Common refactorings for Ruby code, written in Ruby. This project aims 
-to be integrated with several editors (mainly TextMate), to provide 
-simple refactorings, such as:
+Common refactorings for Ruby code, written in Ruby. This project is a 
+TextMate Bundle, aiming to provide simple ruby refactorings, such as:
 
 *  extract method
 
@@ -14,6 +13,9 @@ simple refactorings, such as:
 *  rename using ack
 
 *  move using ack
+
+Currently, it is supporting the "extract method" refactoring, only inside 
+methods, without trying to deduce its parameters and return.
 
 Requirements
 ============
