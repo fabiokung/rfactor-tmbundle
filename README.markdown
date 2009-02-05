@@ -31,18 +31,29 @@ Requirements
 Installation
 ============
 
-To install via Git:
+All the required dependencies are installed by rubygems:
 
-    gem install ParseTree
-    gem install fabiokung-sexp_processor -s http://gems.github.com
-    gem install fabiokung-ruby_parser -s http://gems.github.com
     gem install fabiokung-rfactor -s http://gems.github.com
     
+ParseTree may be also required (i.e.: try this if the command above fails):
+
+    gem install ParseTree
+    gem install fabiokung-rfactor -s http://gems.github.com
+
+Then, install the TextMate Bundle via Git:
+
     cd ~/"Library/Application Support/TextMate/Bundles/"
     git clone git://github.com/fabiokung/rfactor-tmbundle.git "Ruby Refactoring.tmbundle"
     osascript -e 'tell app "TextMate" to reload bundles'
 
 Source can be viewed or forked via GitHub: [http://github.com/fabiokung/rfactor-tmbundle/tree/master](http://github.com/fabiokung/rfactor-tmbundle/tree/master)
+
+If needed, here are the dependencies, individually:
+
+    gem install ParseTree
+    gem install fabiokung-sexp_processor -s http://gems.github.com
+    gem install fabiokung-ruby_parser -s http://gems.github.com
+    gem install fabiokung-rfactor -s http://gems.github.com
 
 License
 =======
