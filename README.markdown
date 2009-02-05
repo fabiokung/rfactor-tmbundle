@@ -35,8 +35,9 @@ All the required dependencies are installed by rubygems:
 
     gem install fabiokung-rfactor -s http://gems.github.com
     
-ParseTree may be also required (i.e.: try this if the command above fails):
+ParseTree and newgem may be also required (i.e.: try this if the command above fails):
 
+    gem install newgem
     gem install ParseTree
     gem install fabiokung-rfactor -s http://gems.github.com
 
