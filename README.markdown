@@ -6,6 +6,8 @@ TextMate Bundle, aiming to provide simple ruby refactorings, such as:
 
 *  extract method
 
+*  extract variable
+
 *  extract Class
 
 *  extract Module
